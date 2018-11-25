@@ -1,0 +1,12 @@
+<div ng-controller="CheckContr">
+<label ng-repeat="filmeVar in dados.filmes track by filmeVar.id">
+  <input
+    type="checkbox"
+    ng-model = "filmeVar.selected"
+    ng-checked=	"filmeVar.selected"
+   
+  > {{filmeVar.titulo}} -- {{filmeVar}}
+</label>
+
+</div>
+ 

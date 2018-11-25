@@ -1,0 +1,19 @@
+<div ng-controller="OneController">
+    <h2>OneController</h2>
+    <button ng-click="buttonClick()">
+        buttonClick on current scope
+    </button>
+    <button ng-click="buttonClickOnTwoController()">
+        buttonClick on TwoController's scope
+    </button>
+</div>
+ 
+<div ng-controller="TwoController">
+    <h2>TwoController</h2>
+    <button ng-click="buttonClick()">
+        buttonClick on current scope
+    </button>
+    <button ng-click="buttonClickOnOneController()">
+        buttonClick on OneController's scope
+    </button>
+</div>

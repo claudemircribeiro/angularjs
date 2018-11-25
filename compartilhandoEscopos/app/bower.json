@@ -1,0 +1,10 @@
+{
+  "name": "angularTestes",
+  "main": "app.js",
+  "authors": [
+    "claudemir <claudemirporttelaribeiro@gmail.com>"
+  ],
+  "description": "angularTestes",
+  "license": "MIT",
+  "homepage": "index.html"
+}
